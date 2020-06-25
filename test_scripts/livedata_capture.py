@@ -10,8 +10,8 @@ from influxdb import InfluxDBClient
 import logging
 logging.basicConfig(level=logging.INFO)
 
-usname = 'wssand001'
-psword = 'john001'
+usname = ''
+psword = ''
 td_app = TD(usname, psword)
 
 host = 'localhost'
